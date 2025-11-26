@@ -119,8 +119,16 @@ input {
   transition: 0.2s ease;
   border: 1px solid transparent;
 }
+.job-card i{
+  font-size: 20px;
+}
 .job-card:hover {
   transform: translateY(-10px);
+}
+.company-logo{
+  top:80px;
+  left: 0;
+  margin: 5px;
 }
 
 
