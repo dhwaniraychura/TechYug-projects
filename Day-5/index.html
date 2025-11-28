@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hire Fire</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Fonts CSS -->
+  <link rel="stylesheet" href="./assets/css/font.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!--  Bootstrap Icons -->
+  <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img src="./assets/images/Logo.png" alt="Logo" width="150px" height="auto">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fs-5 m-2" aria-current="page" href="#">Feed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 m-2" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 m-2" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 m-2" href="#">Jobs</a>
+            </li>
+          </ul>
+          <div class="d-flex icons">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+               <button class="btn btn-outline-warning  rounded-pill m-2 fs-5 px-4">Login</button>
+              </li>
+              <li class="nav-item">
+               <button class="btn btn-warning text-light rounded-pill m-2 fs-5 px-4">Register</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <!-- Create Post -->
+  <div class="container my-4 d-flex justify-content-center mb-5">
+  <div class="newpost-card p-4 shadow">
+    <!-- Top -->
+    <div class="d-flex align-items-center">
+      <img src="./assets/images/company_logo.png" alt="logo" class="newpost-avatar">
+      <div class="flex-grow-1 ms-3">
+        <input type="text" class="newpost-input p-3 w-100 border-0" placeholder="✏️ Write a new post..."/>
+      </div>
+    </div>
+     <hr class="mt-4 mb-3">
+    <!-- Bottom -->
+    <div class="d-flex justify-content-between px-2">
+      <div class="d-flex gap-4 newpost-actions">
+        <span class="d-flex align-items-center gap-1">📷<span>Photo</span></span>
+        <span class="d-flex align-items-center gap-1">🎥<span>Video</span></span>
+        <span class="d-flex align-items-center gap-1">😀<span>Emoji</span></span>
+      </div>
+
+      <button class="btn newpost-btn btn-warning text-light">Post</button>
+    </div>
+
+  </div>
+  </div>
+
+  <!-- Post -->
+  <div class="container d-flex justify-content-center">
+  <div class="card post-card mt-4 position-relative">
+
+    <div class="card-body">
+
+      <!-- Header Section -->
+      <div class="d-flex align-items-center mb-3">
+          <img src="./assets/images/company_logo.png" alt="logo" class="post-avatar">
+        <div class="ms-3">
+          <h5 class="card-title mb-0">Company Name</h5>
+          <small class="post-time">20 min ago</small>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <p class="card-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+        repudiandae exercitationem est blanditiis aut quia beatae debitis
+        eaque ducimus! Ea!
+      </p>
+
+      <!-- Icons -->
+      <div class="post-icons d-flex flex-column position-absolute">
+        <span><i class="fa-solid fa-heart"></i></span>
+        <span><i class="fa-solid fa-comment"></i></span>
+        <span><i class="fa-solid fa-share"></i></span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+</main>
+</body>
+</html>
